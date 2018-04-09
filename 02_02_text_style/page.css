@@ -4,17 +4,18 @@
 /*1. make the background color dark gray: #212121*/
 /*2. change the font family to: 'lato'*/
 .my-body{
-	
-
+	background-color: #212121;
+	font-family: 'lato';	
+	/*lato is a font from Google. Hence you need to import this frrom Google website, hence the 1st 2 line instructions */
 }
 
 /*3. enlarge the font size to: 4rem*/
 /*4. thicken the font wight to: 900*/
 /*5. change the text color to: white*/
 .my-title{
-	
-
-
+	font-size: 4rem; /*3 choices - Rem, em, px */
+	font-weight: 900;
+	color: white;
 }
 
 /*6. enlarge the font size to: 1.25rem*/
@@ -22,10 +23,10 @@
 /*8. change the text color to: orangered*/
 /*9. change the background color to: white*/
 .my-subtitle{
-	
-
-
-
+	font-size: 	1.25rem;
+	font-weight: 400;
+	color: orangered;
+	background-color: white;
 }
 
 /*10. enlarge the font size to: 3rem*/
@@ -33,9 +34,9 @@
 /*12. change the text color to: white*/
 .my-paragraph{
 	
-
-
-
+	font-size: 3rem;
+	font-weight: 100;
+	color: white;
 }
 
 /*13. add a text shadow with the following specs:
@@ -44,5 +45,5 @@
 	shadow blur: 0
 	color: orangered*/
 .my-strong{
-	
+	text-shadow: 2px 2px 2px orangered; /*h-shadow (+ve or -ve) v-shadow (+ve -ve) blur-radius (more number, bokeh) color*/
 }
