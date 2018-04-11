@@ -1,0 +1,17 @@
+.my-image{
+    display: block; /*acts like div*/
+    max-width: 400px;
+    margin: 1rem auto; /* top+bottom, left+right */
+    background-color:black;
+    border-radius:20px;
+}
+
+body{
+    background-color: gray;}
+
+img{
+    border-radius: 10%;
+    max-width: 80%;
+}
+
+

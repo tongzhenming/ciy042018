@@ -1,0 +1,42 @@
+
+.mycolor{background-color: gold;}
+
+.outer-div{
+    background-color: whitesmoke;
+}
+
+.inner-div-individual{
+    border-top-style: dotted;
+    border-top-color: red;
+    border-top-width: 4px;
+    border-bottom-style: dotted;
+    border-bottom-color: navy;
+    border-bottom-width: 6px;
+    border-right-style: ridge;
+    border-right-color: khaki;
+    border-right-width: 10px;
+    border-left-style: groove;
+    border-left-width: 4px;
+    border-left-color: brown;
+    background-color: black;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.inner-div-all{
+    border: 4px dashed red;
+    background-color: black;
+    color: white;
+    margin: 20px dotted blue;
+    padding: 20px line gold;
+    height: 400px;
+    width: 400px;
+}
+
+.box-responsive{
+    max-width: 100% ; /*width will become dynamic and will follow the screen size minimize/maximize. Don't use width as it is static*/
+    background-color: palegreen;
+}

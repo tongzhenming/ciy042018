@@ -19,12 +19,29 @@
 	-	type: what kind of input?
 	-	name: the key name (reflected in the receiving server)
 	-	placeholder: helper text when empty
-	-	required: cannot send form if empty
+	-	required: cannot send form if empty (username and email)
 4. username and email should have accompanying labels
 5. each label+input pair is wrapped in a <div> 
+	
+	hidden input is a data retrieved by the form that is not input by user, rather it is information gathered from user experience and will be sent to the server
 -->
 
-
+<form action="https://coderinyou-1332.appspot.com/submit" method="POST">
+	
+	<div>
+	<label for="username">Username</label>
+	<input type="text" id="username" name="username" placeholder="Input Username" required> 
+	</div> <!-- id definition is needed for Javascript-->
+	
+	<div>
+	<label for="email">Email</label>
+	<input type="email" id="email" name="email" placeholder="Input Email" required>
+	</div>
+	
+	<div>
+	<input type="submit" value="Login">
+	</div>
+</form>
 
 
 

@@ -38,18 +38,20 @@
 /*2. remove the underline decoration*/
 /*3. change the text color to black*/
 .my-link{
-	
-
+	font-weight: 900;
+	text-decoration: none;
+	color: blue;
 	
 }
 /*4. invert the color: text is white, background is black*/
 /*5. add a left padding of: 1rem*/
 .my-link:hover, .my-link:active{
-	
-
-	
+	color: white;
+	background-color: black;
+	padding-left: 1rem; /*to allow the text in the container to move. If we use margin, the whole container will move*/
 }
 /*you can optionally style a visited state*/
 .my-link:visited{
+	color: purple;
 
 }
